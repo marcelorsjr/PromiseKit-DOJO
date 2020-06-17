@@ -3,27 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		05532C2B24993CA30016F879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C2A24993CA30016F879 /* AppDelegate.swift */; };
-		05532C2D24993CA30016F879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C2C24993CA30016F879 /* SceneDelegate.swift */; };
 		05532C2F24993CA30016F879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C2E24993CA30016F879 /* ViewController.swift */; };
 		05532C3224993CA30016F879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05532C3024993CA30016F879 /* Main.storyboard */; };
 		05532C3424993CA60016F879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05532C3324993CA60016F879 /* Assets.xcassets */; };
 		05532C3724993CA60016F879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05532C3524993CA60016F879 /* LaunchScreen.storyboard */; };
+		05532C4524993EE70016F879 /* PostsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C4024993EE70016F879 /* PostsEndpoint.swift */; };
+		05532C4624993EE70016F879 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C4124993EE70016F879 /* Endpoint.swift */; };
+		05532C4724993EE70016F879 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C4224993EE70016F879 /* APIClient.swift */; };
+		05532C4B24993F250016F879 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C4A24993F250016F879 /* Constants.swift */; };
+		05532C4D249940720016F879 /* Constants+EndpointsPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C4C249940720016F879 /* Constants+EndpointsPath.swift */; };
+		05532C502499449C0016F879 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C4F2499449C0016F879 /* Post.swift */; };
+		05532C52249944A20016F879 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C51249944A20016F879 /* Album.swift */; };
+		05532C542499450F0016F879 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C532499450F0016F879 /* User.swift */; };
+		05532C562499539F0016F879 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C552499539F0016F879 /* TableViewCell.swift */; };
+		05532C59249955F50016F879 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C58249955F50016F879 /* Reusable.swift */; };
+		05532C5B249A36500016F879 /* ActivityIndicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C5A249A36500016F879 /* ActivityIndicatorProtocol.swift */; };
+		05532C5D249A37A70016F879 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C5C249A37A70016F879 /* UIViewController+Alert.swift */; };
+		05532C5F249A38360016F879 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C5E249A38360016F879 /* Todo.swift */; };
+		05532C61249A38740016F879 /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C60249A38740016F879 /* PostsService.swift */; };
+		05532C63249A39150016F879 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C62249A39150016F879 /* UsersService.swift */; };
+		05532C65249A391C0016F879 /* AlbumsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C64249A391C0016F879 /* AlbumsService.swift */; };
+		05532C67249A3A5D0016F879 /* UsersEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C66249A3A5D0016F879 /* UsersEndpoint.swift */; };
+		05532C69249A3BD40016F879 /* AlbumsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C68249A3BD40016F879 /* AlbumsEndpoint.swift */; };
+		05532C6B249A3C7C0016F879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C6A249A3C7C0016F879 /* SceneDelegate.swift */; };
+		05532C6E249A3CFD0016F879 /* TodosEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C6D249A3CFD0016F879 /* TodosEndpoint.swift */; };
+		05532C70249A3D1E0016F879 /* TodosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05532C6F249A3D1E0016F879 /* TodosService.swift */; };
+		A42BB653520CE70B9234B38D /* Pods_PromiseKit_DOJO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033FAD0CFC465835E90A548B /* Pods_PromiseKit_DOJO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033FAD0CFC465835E90A548B /* Pods_PromiseKit_DOJO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromiseKit_DOJO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05532C2724993CA30016F879 /* PromiseKit-DOJO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PromiseKit-DOJO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05532C2A24993CA30016F879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05532C2C24993CA30016F879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05532C2E24993CA30016F879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05532C3124993CA30016F879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05532C3324993CA60016F879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05532C3624993CA60016F879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05532C3824993CA60016F879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05532C4024993EE70016F879 /* PostsEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsEndpoint.swift; sourceTree = "<group>"; };
+		05532C4124993EE70016F879 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		05532C4224993EE70016F879 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		05532C4A24993F250016F879 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		05532C4C249940720016F879 /* Constants+EndpointsPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+EndpointsPath.swift"; sourceTree = "<group>"; };
+		05532C4F2499449C0016F879 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		05532C51249944A20016F879 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		05532C532499450F0016F879 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		05532C552499539F0016F879 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		05532C58249955F50016F879 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		05532C5A249A36500016F879 /* ActivityIndicatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorProtocol.swift; sourceTree = "<group>"; };
+		05532C5C249A37A70016F879 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		05532C5E249A38360016F879 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		05532C60249A38740016F879 /* PostsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsService.swift; sourceTree = "<group>"; };
+		05532C62249A39150016F879 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
+		05532C64249A391C0016F879 /* AlbumsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsService.swift; sourceTree = "<group>"; };
+		05532C66249A3A5D0016F879 /* UsersEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersEndpoint.swift; sourceTree = "<group>"; };
+		05532C68249A3BD40016F879 /* AlbumsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsEndpoint.swift; sourceTree = "<group>"; };
+		05532C6A249A3C7C0016F879 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05532C6D249A3CFD0016F879 /* TodosEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosEndpoint.swift; sourceTree = "<group>"; };
+		05532C6F249A3D1E0016F879 /* TodosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosService.swift; sourceTree = "<group>"; };
+		06631D85BC21544CA1E5B57A /* Pods-PromiseKit-DOJO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromiseKit-DOJO.release.xcconfig"; path = "Target Support Files/Pods-PromiseKit-DOJO/Pods-PromiseKit-DOJO.release.xcconfig"; sourceTree = "<group>"; };
+		C234F4BC8F3A1C642B6F4337 /* Pods-PromiseKit-DOJO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromiseKit-DOJO.debug.xcconfig"; path = "Target Support Files/Pods-PromiseKit-DOJO/Pods-PromiseKit-DOJO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42BB653520CE70B9234B38D /* Pods_PromiseKit_DOJO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +87,8 @@
 			children = (
 				05532C2924993CA30016F879 /* PromiseKit-DOJO */,
 				05532C2824993CA30016F879 /* Products */,
+				DD73963B29B01AD2E9A0136F /* Pods */,
+				4AD892708EB1144760538E61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,108 @@
 		05532C2924993CA30016F879 /* PromiseKit-DOJO */ = {
 			isa = PBXGroup;
 			children = (
-				05532C2A24993CA30016F879 /* AppDelegate.swift */,
-				05532C2C24993CA30016F879 /* SceneDelegate.swift */,
+				05532C6C249A3C890016F879 /* Application */,
+				05532C57249955E40016F879 /* Util */,
+				05532C4924993F250016F879 /* Constants */,
+				05532C3E24993EE70016F879 /* Networking */,
 				05532C2E24993CA30016F879 /* ViewController.swift */,
+				05532C552499539F0016F879 /* TableViewCell.swift */,
 				05532C3024993CA30016F879 /* Main.storyboard */,
+			);
+			path = "PromiseKit-DOJO";
+			sourceTree = "<group>";
+		};
+		05532C3E24993EE70016F879 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				05532C4E249944930016F879 /* Models */,
+				05532C3F24993EE70016F879 /* Endpoints */,
+				05532C4224993EE70016F879 /* APIClient.swift */,
+				05532C4324993EE70016F879 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		05532C3F24993EE70016F879 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				05532C4024993EE70016F879 /* PostsEndpoint.swift */,
+				05532C4124993EE70016F879 /* Endpoint.swift */,
+				05532C4C249940720016F879 /* Constants+EndpointsPath.swift */,
+				05532C66249A3A5D0016F879 /* UsersEndpoint.swift */,
+				05532C68249A3BD40016F879 /* AlbumsEndpoint.swift */,
+				05532C6D249A3CFD0016F879 /* TodosEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		05532C4324993EE70016F879 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				05532C60249A38740016F879 /* PostsService.swift */,
+				05532C62249A39150016F879 /* UsersService.swift */,
+				05532C64249A391C0016F879 /* AlbumsService.swift */,
+				05532C6F249A3D1E0016F879 /* TodosService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		05532C4924993F250016F879 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				05532C4A24993F250016F879 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		05532C4E249944930016F879 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05532C4F2499449C0016F879 /* Post.swift */,
+				05532C51249944A20016F879 /* Album.swift */,
+				05532C532499450F0016F879 /* User.swift */,
+				05532C5E249A38360016F879 /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05532C57249955E40016F879 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				05532C5A249A36500016F879 /* ActivityIndicatorProtocol.swift */,
+				05532C5C249A37A70016F879 /* UIViewController+Alert.swift */,
+				05532C58249955F50016F879 /* Reusable.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		05532C6C249A3C890016F879 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				05532C2A24993CA30016F879 /* AppDelegate.swift */,
+				05532C6A249A3C7C0016F879 /* SceneDelegate.swift */,
 				05532C3324993CA60016F879 /* Assets.xcassets */,
 				05532C3524993CA60016F879 /* LaunchScreen.storyboard */,
 				05532C3824993CA60016F879 /* Info.plist */,
 			);
-			path = "PromiseKit-DOJO";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4AD892708EB1144760538E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033FAD0CFC465835E90A548B /* Pods_PromiseKit_DOJO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD73963B29B01AD2E9A0136F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C234F4BC8F3A1C642B6F4337 /* Pods-PromiseKit-DOJO.debug.xcconfig */,
+				06631D85BC21544CA1E5B57A /* Pods-PromiseKit-DOJO.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05532C3B24993CA60016F879 /* Build configuration list for PBXNativeTarget "PromiseKit-DOJO" */;
 			buildPhases = (
+				D25AD6049AA67EFED0832FD8 /* [CP] Check Pods Manifest.lock */,
 				05532C2324993CA30016F879 /* Sources */,
 				05532C2424993CA30016F879 /* Frameworks */,
 				05532C2524993CA30016F879 /* Resources */,
+				DC858F12AA325E8064611E45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +275,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D25AD6049AA67EFED0832FD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PromiseKit-DOJO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC858F12AA325E8064611E45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PromiseKit-DOJO/Pods-PromiseKit-DOJO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PromiseKit-DOJO/Pods-PromiseKit-DOJO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PromiseKit-DOJO/Pods-PromiseKit-DOJO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05532C2324993CA30016F879 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05532C67249A3A5D0016F879 /* UsersEndpoint.swift in Sources */,
+				05532C562499539F0016F879 /* TableViewCell.swift in Sources */,
 				05532C2F24993CA30016F879 /* ViewController.swift in Sources */,
 				05532C2B24993CA30016F879 /* AppDelegate.swift in Sources */,
-				05532C2D24993CA30016F879 /* SceneDelegate.swift in Sources */,
+				05532C6E249A3CFD0016F879 /* TodosEndpoint.swift in Sources */,
+				05532C4524993EE70016F879 /* PostsEndpoint.swift in Sources */,
+				05532C70249A3D1E0016F879 /* TodosService.swift in Sources */,
+				05532C59249955F50016F879 /* Reusable.swift in Sources */,
+				05532C5D249A37A70016F879 /* UIViewController+Alert.swift in Sources */,
+				05532C4624993EE70016F879 /* Endpoint.swift in Sources */,
+				05532C6B249A3C7C0016F879 /* SceneDelegate.swift in Sources */,
+				05532C4724993EE70016F879 /* APIClient.swift in Sources */,
+				05532C61249A38740016F879 /* PostsService.swift in Sources */,
+				05532C4D249940720016F879 /* Constants+EndpointsPath.swift in Sources */,
+				05532C542499450F0016F879 /* User.swift in Sources */,
+				05532C63249A39150016F879 /* UsersService.swift in Sources */,
+				05532C4B24993F250016F879 /* Constants.swift in Sources */,
+				05532C52249944A20016F879 /* Album.swift in Sources */,
+				05532C65249A391C0016F879 /* AlbumsService.swift in Sources */,
+				05532C69249A3BD40016F879 /* AlbumsEndpoint.swift in Sources */,
+				05532C502499449C0016F879 /* Post.swift in Sources */,
+				05532C5F249A38360016F879 /* Todo.swift in Sources */,
+				05532C5B249A36500016F879 /* ActivityIndicatorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +486,11 @@
 		};
 		05532C3C24993CA60016F879 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C234F4BC8F3A1C642B6F4337 /* Pods-PromiseKit-DOJO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "PromiseKit-DOJO/Info.plist";
+				INFOPLIST_FILE = "PromiseKit-DOJO/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +504,11 @@
 		};
 		05532C3D24993CA60016F879 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06631D85BC21544CA1E5B57A /* Pods-PromiseKit-DOJO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "PromiseKit-DOJO/Info.plist";
+				INFOPLIST_FILE = "PromiseKit-DOJO/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
